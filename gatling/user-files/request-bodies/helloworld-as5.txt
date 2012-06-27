@@ -1,0 +1,6 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:jbos="http://jbossas5.loadtesting.helloworld.mogztter.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <jbos:sayHi/>
+   </soapenv:Body>
+</soapenv:Envelope>

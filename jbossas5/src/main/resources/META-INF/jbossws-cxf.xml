@@ -1,0 +1,19 @@
+<beans
+        xmlns='http://www.springframework.org/schema/beans'
+        xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+        xmlns:beans='http://www.springframework.org/schema/beans'
+        xmlns:jaxws='http://cxf.apache.org/jaxws'
+        xsi:schemaLocation='http://www.springframework.org/schema/beans
+  http://www.springframework.org/schema/beans/spring-beans.xsd
+  http://cxf.apache.org/jaxws
+  http://cxf.apache.org/schemas/jaxws.xsd'>
+
+    <jaxws:endpoint
+            id='HelloWorldService'
+            address='http://localhost:8080/jbossas5-1.0/HelloWorldService'
+            implementor='org.mogztter.helloworld.loadtesting.jbossas5.HelloWorldService'>
+        <jaxws:invoker>
+            <bean class='org.jboss.wsf.stack.cxf.InvokerEJB3'/>
+        </jaxws:invoker>
+    </jaxws:endpoint>
+</beans>

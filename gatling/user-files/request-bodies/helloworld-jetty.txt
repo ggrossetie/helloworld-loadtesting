@@ -1,0 +1,6 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:jet="http://jetty.loadtesting.helloworld.mogztter.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <jet:sayHi/>
+   </soapenv:Body>
+</soapenv:Envelope>
