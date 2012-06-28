@@ -21,10 +21,12 @@ Copy the war file after a successful build
 
 Start Jetty
 > cd $JETTY_HOME/bin/
+
 > ./jetty.sh start
 
 Start Gatling
 > cd $GATLING_HOME/bin
+
 > ./run.sh
 
 ## JBoss AS5
@@ -39,10 +41,12 @@ Copy the jar file after a successful build
 
 Start JBoss AS5
 > cd $JBOSSAS5_HOME/bin/
+
 > ./run.sh
 
 Start Gatling
 > cd $GATLING_HOME/bin
+
 > ./run.sh
 
 ## JBoss AS7
@@ -54,8 +58,10 @@ Copy the jar file after a successful build
 
 Start JBoss AS7
 > cd $JBOSSAS7_HOME/bin/
+
 > ./standalone.sh
 
 Start Gatling
 > cd $GATLING_HOME/bin
+
 > ./run.sh
